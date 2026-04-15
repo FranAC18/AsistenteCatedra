@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entorno virtual
+venv/
+.env/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Datos generados
+data/audio/
+data/*.wav
+
+# Config local
+*.log
+
+# VSCode
+.vscode/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Modelos descargados (opcional si pesa mucho)
+*.pt
+*.bin
+
+# ffmpeg si lo metiste dentro del proyecto
+ffmpeg/
